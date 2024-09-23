@@ -1,34 +1,28 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # Horoscoper
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of **horoscoper** is to provide detailed information about zodiac signs and horoscopes.  
-This package uses web scraping to gather horoscope information from [horoscope.com](https://www.horoscope.com/us/index.aspx).
-
-## Project Description
-
-This project was developed as a collaborative effort between myself and two teammates. We aimed to create a package that simplifies the process of obtaining and interpreting daily horoscopes and zodiac information. My role involved writing the core functions, conducting web scraping for data collection, and ensuring package functionality.
-
-### Key Features:
-
-1. **Zodiac Sign Calculation**: Determine your zodiac sign based on your birthday.
-2. **Zodiac Traits**: Learn about your sign's personality traits, lucky symbols, and compatibility.
-3. **Daily Horoscope**: Get your daily horoscope based on your zodiac sign.
-4. **Zodiac Compatibility**: Check the compatibility of any two zodiac signs.
-
-Our teamwork focused on implementing these features efficiently and ensuring that the user can access accurate zodiac and horoscope information quickly.
+The goal of **horoscoper** is to provide detailed information about
+zodiac signs and horoscopes.  
+This package uses webscrapping to get the horoscope information from
+[horoscope.com](https://www.horoscope.com/us/index.aspx).
 
 ## Installation
 
-You can install the development version from [GitHub](https://github.com/) with:
+You can install the the development version from
+[GitHub](https://github.com/) with:
 
-```r
+``` r
 # install.packages("devtools")
 devtools::install_github("aibarra21/horoscoper")
 #> Using GitHub PAT from the git credential store.
-#> Skipping install of 'horoscoper' from a github remote, the SHA1 (d287ed5c) has not changed since last install.
+#> Skipping install of 'horoscoper' from a github remote, the SHA1 (cc5a2f87) has not changed since last install.
 #>   Use `force = TRUE` to force installation
+```
 
 ``` r
 library(horoscoper)
