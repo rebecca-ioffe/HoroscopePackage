@@ -7,7 +7,7 @@
 <!-- badges: end -->
 
 The goal of **horoscoper** is to provide detailed information about
-zodiac signs and horoscopes.  
+zodiac signs and horoscopes. This was a collaborative effort between myself and two teammates to create a package in R. 
 This package uses webscrapping to get the horoscope information from
 [horoscope.com](https://www.horoscope.com/us/index.aspx).
 
